@@ -31,7 +31,7 @@ var getSetLastFM = function() {
         recentTrack.artist["#text"];
       $("a#trackartist")
         .html(artistFormatted)
-        .attr("href", "https://last.fm/music/" + recentTrack.artist["#text"])
+        // .attr("href", "https://last.fm/music/" + recentTrack.artist["#text"])
         .attr("title", "Artist : " + recentTrack.artist["#text"])
         .attr("target", "_blank");
       $("img#trackart").attr("src", recentTrack.image[2]["#text"]);
